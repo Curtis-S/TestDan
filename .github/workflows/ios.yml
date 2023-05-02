@@ -1,0 +1,24 @@
+name: iOS starter workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+build:
+runs-on: macos-latest
+
+steps:
+- uses: actions/checkout@master
+- name: Build
+run: swift build
+
+- name: Test
+run: swift test
+
+- name: Danger
+run: danger-swift ci
+env: GITHUB_TOKEN: ${{ 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 }}
+
