@@ -1,14 +1,16 @@
 name: "Danger Swift"
 on: [pull_request]
-
 jobs:
 build:
-name: Danger JS
-runs-on: ubuntu-latest
+runs-on: macos-latest
+
 steps:
-- uses: actions/checkout@v1
+- uses: actions/checkout@master
+- name: Build
+run: xcodebuild
+
 - name: Danger
-uses: danger/swift@3.16.0
-env: GITHUB_TOKEN: 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
-with:
-args: "--dangerfile artsy/peril-settings/org/allPRs.ts"
+run: danger-swift ci
+env: GITHUB_TOKEN: ${{ secrets.BOT.KEY}}
+
+
