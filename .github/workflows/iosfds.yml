@@ -5,13 +5,7 @@ build:
 runs-on: macos-latest
 
 steps:
-- uses: actions/checkout@master
-- name: Build
-run: swift build
-
-- name: Test
-run: swift test
-
+- uses: actions/checkout@v1
 - name: Danger
 run: danger-swift ci
 env: GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
