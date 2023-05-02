@@ -9,5 +9,5 @@ steps:
 - uses: actions/checkout@v1
 - name: Danger
 uses: danger/swift@3.16.0
-env: GITHUB_TOKEN: ${{ secrets.BOT_KEY }} 
+env: GITHUB_TOKEN: ${{ secrets.TEST_KEY }} 
 
