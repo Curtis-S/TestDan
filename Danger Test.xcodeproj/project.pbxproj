@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B846E3162A014D2C0091C8D5 /* danger-swift in Frameworks */ = {isa = PBXBuildFile; productRef = B846E3152A014D2C0091C8D5 /* danger-swift */; };
 		B846E32F2A01698E0091C8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B846E3292A01698E0091C8D5 /* Assets.xcassets */; };
 		B846E3302A01698E0091C8D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B846E32B2A01698E0091C8D5 /* Preview Assets.xcassets */; };
 		B846E3312A01698E0091C8D5 /* Danger_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846E32C2A01698E0091C8D5 /* Danger_TestApp.swift */; };
@@ -28,7 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B846E3162A014D2C0091C8D5 /* danger-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +86,6 @@
 			);
 			name = "Danger Test";
 			packageProductDependencies = (
-				B846E3152A014D2C0091C8D5 /* danger-swift */,
 			);
 			productName = "Danger Test";
 			productReference = B8DE18682A00EDC6001835F9 /* Danger Test.app */;
@@ -119,7 +116,6 @@
 			);
 			mainGroup = B8DE185F2A00EDC6001835F9;
 			packageReferences = (
-				B846E3142A014D2C0091C8D5 /* XCRemoteSwiftPackageReference "swift" */,
 			);
 			productRefGroup = B8DE18692A00EDC6001835F9 /* Products */;
 			projectDirPath = "";
@@ -276,7 +272,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Danger Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DangerTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,7 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Danger Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DangerTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -347,25 +343,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		B846E3142A014D2C0091C8D5 /* XCRemoteSwiftPackageReference "swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/danger/swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B846E3152A014D2C0091C8D5 /* danger-swift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B846E3142A014D2C0091C8D5 /* XCRemoteSwiftPackageReference "swift" */;
-			productName = "danger-swift";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B8DE18602A00EDC6001835F9 /* Project object */;
 }
