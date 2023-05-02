@@ -14,8 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B846E30D2A0114CA0091C8D5 /* MyTesingDanger */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyTesingDanger; sourceTree = "<group>"; };
-		B846E30F2A01154C0091C8D5 /* MyTesingDanger */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyTesingDanger; sourceTree = "<group>"; };
+		B846E3112A011CC30091C8D5 /* DangerProxy */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DangerProxy; sourceTree = "<group>"; };
 		B8DE18682A00EDC6001835F9 /* Danger Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Danger Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DE186B2A00EDC6001835F9 /* Danger_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Danger_TestApp.swift; sourceTree = "<group>"; };
 		B8DE186D2A00EDC6001835F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,19 +33,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B846E30E2A01154C0091C8D5 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				B846E30F2A01154C0091C8D5 /* MyTesingDanger */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		B8DE185F2A00EDC6001835F9 = {
 			isa = PBXGroup;
 			children = (
-				B846E30E2A01154C0091C8D5 /* Packages */,
-				B846E30D2A0114CA0091C8D5 /* MyTesingDanger */,
+				B846E3112A011CC30091C8D5 /* DangerProxy */,
 				B8DE186A2A00EDC6001835F9 /* Danger Test */,
 				B8DE18692A00EDC6001835F9 /* Products */,
 			);
