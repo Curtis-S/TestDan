@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B846E3162A014D2C0091C8D5 /* danger-swift in Frameworks */ = {isa = PBXBuildFile; productRef = B846E3152A014D2C0091C8D5 /* danger-swift */; };
 		B8DE186C2A00EDC6001835F9 /* Danger_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE186B2A00EDC6001835F9 /* Danger_TestApp.swift */; };
 		B8DE186E2A00EDC6001835F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE186D2A00EDC6001835F9 /* ContentView.swift */; };
 		B8DE18702A00EDC8001835F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE186F2A00EDC8001835F9 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B846E3162A014D2C0091C8D5 /* danger-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,7 @@
 			);
 			name = "Danger Test";
 			packageProductDependencies = (
+				B846E3152A014D2C0091C8D5 /* danger-swift */,
 			);
 			productName = "Danger Test";
 			productReference = B8DE18682A00EDC6001835F9 /* Danger Test.app */;
@@ -116,6 +119,7 @@
 			);
 			mainGroup = B8DE185F2A00EDC6001835F9;
 			packageReferences = (
+				B846E3142A014D2C0091C8D5 /* XCRemoteSwiftPackageReference "swift" */,
 			);
 			productRefGroup = B8DE18692A00EDC6001835F9 /* Products */;
 			projectDirPath = "";
@@ -343,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B846E3142A014D2C0091C8D5 /* XCRemoteSwiftPackageReference "swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danger/swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B846E3152A014D2C0091C8D5 /* danger-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B846E3142A014D2C0091C8D5 /* XCRemoteSwiftPackageReference "swift" */;
+			productName = "danger-swift";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B8DE18602A00EDC6001835F9 /* Project object */;
 }
