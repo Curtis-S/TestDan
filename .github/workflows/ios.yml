@@ -2,12 +2,12 @@ name: "Danger Swift"
 on: [pull_request]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     name: "Run Danger"
     steps:
       - uses: actions/checkout@v1
       - name: Danger
-        uses: danger/swift@3.16.0
+        uses: danger-swift ci
         with:
             args: --failOnErrors --no-publish-check
         env:
