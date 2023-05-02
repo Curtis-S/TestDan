@@ -10,4 +10,4 @@ jobs:
         uses: danger/swift@3.16.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          uses: DangerProxy/Dangerfile.swift
+         uses: ["DangerProxy/Dangerfile.swift"] 
