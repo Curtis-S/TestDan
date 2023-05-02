@@ -1,18 +1,15 @@
-name: CI
+name: Swift
+
 on: [pull_request]
+
 jobs:
-build:
-runs-on: macos-latest
+  build:
 
-steps:
-  - uses: actions/checkout@v3
-  - uses: fwal/setup-swift@ffb5a44dd03d3d22fb26f48fa43e43fa4ce655a7
-    with:
-      swift-version: "5.6"
-  - name: Build
-    run: swift build
-  - name: Run tests
-    run: swift test
+    runs-on: macos-latest
 
-
-
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        run: swift build
+      - name: Run tests
+        run: swift test
