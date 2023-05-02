@@ -8,6 +8,6 @@ steps:
 - uses: actions/checkout@v2
 - name: Danger
 run: danger-swift ci
-env: GITHUB_TOKEN: ${{ secrets.BOT.KEY}}
+env: GITHUB_TOKEN: ${{ secrets.BOT.KEY }}
 
 
