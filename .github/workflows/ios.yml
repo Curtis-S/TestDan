@@ -10,4 +10,5 @@ steps:
 - name: Danger
 uses: danger/swift@3.16.0
 env: GITHUB_TOKEN: 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
-
+with:
+args: "--dangerfile artsy/peril-settings/org/allPRs.ts"
