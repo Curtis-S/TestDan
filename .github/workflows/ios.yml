@@ -9,5 +9,5 @@ steps:
 - uses: actions/checkout@v1
 - name: Danger
 uses: danger/swift@3.16.0
-env: GITHUB_TOKEN: ${{ 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 }}
+env: GITHUB_TOKEN: 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
 
