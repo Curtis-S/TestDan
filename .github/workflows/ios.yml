@@ -6,6 +6,9 @@ runs-on: macos-latest
 
 steps:
 - uses: actions/checkout@v2
+- name: Build
+run: xcodebuild -target "Danger test"
+
 - name: Danger
 run: danger-swift ci
 env: ${{ secrets.BOT.KEY }}
