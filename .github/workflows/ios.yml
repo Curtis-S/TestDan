@@ -7,8 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Danger
-        uses: docker://ghcr.io/danger/danger-swift:3.16.0
-        with:
-            args: --failOnErrors --no-publish-check
+        - uses: danger/swift@3.16.0
+        - uses: ".DangerProxy/"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

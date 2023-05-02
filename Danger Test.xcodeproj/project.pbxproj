@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8DE186C2A00EDC6001835F9 /* Danger_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE186B2A00EDC6001835F9 /* Danger_TestApp.swift */; };
-		B8DE186E2A00EDC6001835F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE186D2A00EDC6001835F9 /* ContentView.swift */; };
-		B8DE18702A00EDC8001835F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE186F2A00EDC8001835F9 /* Assets.xcassets */; };
-		B8DE18732A00EDC8001835F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE18722A00EDC8001835F9 /* Preview Assets.xcassets */; };
+		B846E32F2A01698E0091C8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B846E3292A01698E0091C8D5 /* Assets.xcassets */; };
+		B846E3302A01698E0091C8D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B846E32B2A01698E0091C8D5 /* Preview Assets.xcassets */; };
+		B846E3312A01698E0091C8D5 /* Danger_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846E32C2A01698E0091C8D5 /* Danger_TestApp.swift */; };
+		B846E3322A01698E0091C8D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846E32D2A01698E0091C8D5 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B846E3112A011CC30091C8D5 /* DangerProxy */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DangerProxy; sourceTree = "<group>"; };
+		B846E3292A01698E0091C8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B846E32B2A01698E0091C8D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B846E32C2A01698E0091C8D5 /* Danger_TestApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Danger_TestApp.swift; sourceTree = "<group>"; };
+		B846E32D2A01698E0091C8D5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B8DE18682A00EDC6001835F9 /* Danger Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Danger Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8DE186B2A00EDC6001835F9 /* Danger_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Danger_TestApp.swift; sourceTree = "<group>"; };
-		B8DE186D2A00EDC6001835F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B8DE186F2A00EDC8001835F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B8DE18722A00EDC8001835F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,11 +33,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B846E3272A01698E0091C8D5 /* DangerTest */ = {
+			isa = PBXGroup;
+			children = (
+				B846E3292A01698E0091C8D5 /* Assets.xcassets */,
+				B846E32A2A01698E0091C8D5 /* Preview Content */,
+				B846E32C2A01698E0091C8D5 /* Danger_TestApp.swift */,
+				B846E32D2A01698E0091C8D5 /* ContentView.swift */,
+			);
+			path = DangerTest;
+			sourceTree = "<group>";
+		};
+		B846E32A2A01698E0091C8D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B846E32B2A01698E0091C8D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		B8DE185F2A00EDC6001835F9 = {
 			isa = PBXGroup;
 			children = (
+				B846E3272A01698E0091C8D5 /* DangerTest */,
 				B846E3112A011CC30091C8D5 /* DangerProxy */,
-				B8DE186A2A00EDC6001835F9 /* Danger Test */,
 				B8DE18692A00EDC6001835F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,25 +67,6 @@
 				B8DE18682A00EDC6001835F9 /* Danger Test.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B8DE186A2A00EDC6001835F9 /* Danger Test */ = {
-			isa = PBXGroup;
-			children = (
-				B8DE186B2A00EDC6001835F9 /* Danger_TestApp.swift */,
-				B8DE186D2A00EDC6001835F9 /* ContentView.swift */,
-				B8DE186F2A00EDC8001835F9 /* Assets.xcassets */,
-				B8DE18712A00EDC8001835F9 /* Preview Content */,
-			);
-			path = "Danger Test";
-			sourceTree = "<group>";
-		};
-		B8DE18712A00EDC8001835F9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B8DE18722A00EDC8001835F9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8DE18732A00EDC8001835F9 /* Preview Assets.xcassets in Resources */,
-				B8DE18702A00EDC8001835F9 /* Assets.xcassets in Resources */,
+				B846E3302A01698E0091C8D5 /* Preview Assets.xcassets in Resources */,
+				B846E32F2A01698E0091C8D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8DE186E2A00EDC6001835F9 /* ContentView.swift in Sources */,
-				B8DE186C2A00EDC6001835F9 /* Danger_TestApp.swift in Sources */,
+				B846E3312A01698E0091C8D5 /* Danger_TestApp.swift in Sources */,
+				B846E3322A01698E0091C8D5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Danger Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DangerTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,7 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Danger Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DangerTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

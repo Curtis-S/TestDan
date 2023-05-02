@@ -24,7 +24,7 @@ let package = Package(
             name: "DangerProxy",
             dependencies: [
                 .product(name:"Danger",package: "swift")
-            ],path: "Sources/DangerProxy/", sources: ["Stringify.swift"]),
+            ], sources: ["Stringify.swift"]),
         .testTarget(
             name: "DangerProxyTests",
             dependencies: ["DangerProxy"]),
