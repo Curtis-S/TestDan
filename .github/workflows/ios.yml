@@ -2,13 +2,11 @@ name: "Danger Swift"
 on: [pull_request]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     name: "Run Danger"
     steps:
       - uses: actions/checkout@v1
       - name: Danger
-        uses: docker://ghcr.io/danger/danger-swift:3.16.0
-        with:
-            args: --failOnErrors --no-publish-check
+        run: danger-swift ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
