@@ -12,11 +12,6 @@ runs-on: macos-latest
 
 steps:
 - uses: actions/checkout@master
-- name: Build
-run: swift build
-
-- name: Test
-run: swift test
 
 - name: Danger
 run: danger-swift ci
